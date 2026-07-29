@@ -7,7 +7,7 @@ export const SCORING_CONFIG = {
   initialPoints: 500,           // Max points per module for 1st solver
   minimumPoints: 100,           // Minimum points floor per module
   decaySolves: 20,              // Solves count over which score decays to minimum
-  penaltyPerWrongAttempt: 10,   // Points deducted per incorrect submission
+  penaltyPerWrongAttempt: 0,   // Points deducted per incorrect submission
 } as const;
 
 /**

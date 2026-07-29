@@ -14,3 +14,4 @@ my-app/node_modules/
 *.njsproj
 *.sln
 *.sw?
+config.bat
